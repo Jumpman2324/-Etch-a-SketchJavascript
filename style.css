@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+.header {
+    text-align: center;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 2px;
+    width: 400px; /* Adjust the width to your preference */
+    height: 400px; /* Adjust the height to your preference */
+    margin: auto;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.grid-cell {
+    background-color: white;
+    border: 1px solid lightgray;
+   
+}
+
+
+.grid-cell:hover {
+    background-color:purple;
+    
+}
+
+.clear-btn {
+    cursor: pointer;
+    border: none;
+    color:rgb(255, 255, 255);
+    border-radius:5px;
+    display: block;
+    margin: 0 auto; 
+    text-align: center;
+    background-color:purple;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
